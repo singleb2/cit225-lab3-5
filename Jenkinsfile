@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/singleb2'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/singleb2/cit225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('singleb2-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('singleb2-225')                                                         //<------change this
     }
 
     stages {
